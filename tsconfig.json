@@ -1,0 +1,35 @@
+{
+    "compilerOptions": {
+        "lib": [
+            "es5",
+            "es6"
+        ],
+        "target": "es2017",
+        "allowJs": true,
+        "esModuleInterop": true,
+        "module": "CommonJS",
+        "moduleResolution": "node",
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "skipLibCheck": true,
+        "skipDefaultLibCheck": true,
+        "declaration": true,
+        "sourceMap": true,
+        "outDir": "dist",
+        "rootDir": "src",
+        "baseUrl": "src",
+        "allowSyntheticDefaultImports": true
+    },
+    "include": [
+        "src",
+        "src"
+    ],
+    "exclude": [
+        "**/__tests__",
+        "**/__fixtures__",
+        "node_modules",
+        "dist",
+        "node_modules",
+        "**/*.spec.ts"
+    ]
+}
